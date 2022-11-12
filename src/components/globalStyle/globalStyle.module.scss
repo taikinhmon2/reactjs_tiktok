@@ -1,0 +1,24 @@
+@import "normalize.css" ;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root { 
+    --defaulWidth: 1150px;
+    --defaulHeigh: 60px;
+    --Defaul-outline: none;
+    --Defaul-border: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+input,button,[tabindex] {
+    outline: none;
+    border: none;
+}
